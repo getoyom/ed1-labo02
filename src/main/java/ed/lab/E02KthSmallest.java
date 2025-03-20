@@ -10,11 +10,11 @@ public class E02KthSmallest {
     }
 
     //Recursive traverse inorder code
-    private void traverse(TreeNode root, List<Integer> result){
+    private void traverse(TreeNode<Integer> root, List<Integer> result){
         if(root == null)
             return;
         traverse(root.left, result);
-        result.add((Integer) root.value);
+        result.add(root.value);
         traverse(root.right, result);
     }
 
