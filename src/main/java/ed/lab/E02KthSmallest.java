@@ -18,4 +18,5 @@ public class E02KthSmallest {
         traverse(root.right, result);
     }
 
+
 }

@@ -4,9 +4,11 @@ public class TreeNode <T> {
     protected T value;
     protected TreeNode<T> left;
     protected TreeNode<T> right;
+    protected int height;
 
     public TreeNode(T value) {
         this.value = value;
+        this.height = 0;
     }
 
     @Override
