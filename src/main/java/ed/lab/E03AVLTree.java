@@ -13,6 +13,7 @@ public class E03AVLTree<T> {
     }
 
     public void insert(T value) {
+        /*Update root to add new values*/
         root = insert(root, value);
     }
 
